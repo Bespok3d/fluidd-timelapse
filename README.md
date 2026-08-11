@@ -35,6 +35,9 @@ npx b3-builder build --source ./timelapse --atom-repo Bespok3d/fluidd-timelapse
 # -> dist/timelapse-<ver>.b3 + dist/timelapse.atom.json
 ```
 
+Writing a plugin of your own? Start at the plugin documentation:
+[Bespok3d/b3-builder/doc](https://github.com/Bespok3d/b3-builder/tree/main/doc).
+
 ## Releasing
 
 Bump `timelapse/manifest.json` `version` and push the tag `plugin-<name>-v<version>` naming that
